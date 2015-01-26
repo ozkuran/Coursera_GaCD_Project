@@ -66,9 +66,16 @@ if (window.hljs && document.readyState && document.readyState === "complete") {
 <li>Merges the training and the test sets to create one data set.</li>
 </ol>
 <ul>
-<li>The raw data consists of data set <strong>X_train.txt</strong>, <strong>X_test.txt</strong>, <strong>Y_train.txt</strong>,<strong>Y_test.txt</strong> and <strong>subject_test.txt</strong> files.</li>
-<li>Merge of <strong>X_train.txt</strong>, <strong>X_test.txt</strong> files results data frame of <em>10299</em> instances and <em>561</em> varaibles.</li>
+<li>The raw data consists of data set <strong>X_train.txt</strong>, <strong>X_test.txt</strong>, <strong>Y_train.txt</strong>,<strong>Y_test.txt</strong>, <strong>subject_train.txt</strong> and <strong>subject_test.txt</strong> files.</li>
+<li>Merge of <strong>X_train.txt</strong>, <strong>X_test.txt</strong> files results data frame of <em>10299</em> instances and <em>561</em> variables. Data consists of collected data from accelerometers.</li>
+<li>Merge of <strong>subject_train.txt</strong> and <strong>subject_test.txt</strong> files are produces a 10299x1 data frame with <em>subjectIDs</em>.</li>
+<li>Merge of <strong>Y_train.txt</strong> and <strong>Y_test.txt</strong> files are produces a 10299x1 data frame with <em>activityIDs</em>.</li>
 </ul>
+<p>2.Read features from <strong>features.txt</strong> file.</p>
+<p>3.Read features from <strong>activity_labels.txt</strong> file.</p>
+<p>4.Extract feature name to <em>featureNames</em>.</p>
+<p>5.Extract feature names with <strong>mean</strong> or <strong>std</strong> to <em>featuresMeanSTD</em> data frame.</p>
+<p>6.Extract features with <strong>mean</strong> or <strong>std</strong> to <em>featuresMS</em>.</p>
 
 
 </div>

@@ -22,3 +22,15 @@ Used Steps are.
 - Merge of **X_train.txt**, **X_test.txt** files results data frame of *10299* instances and *561* variables. Data consists of collected data from accelerometers.
 - Merge of **subject_train.txt** and **subject_test.txt** files are produces a 10299x1 data frame with *subjectIDs*.
 - Merge of **Y_train.txt** and **Y_test.txt** files are produces a 10299x1 data frame with *activityIDs*.
+
+2.Read features from **features.txt** file.
+
+3.Read features from **activity_labels.txt** file.
+
+4.Extract feature name to *featureNames*.
+
+5.Extract feature names with **mean** or **std** to *featuresMeanSTD* data frame.
+
+6.Extract features with **mean** or **std** to *featuresMS*.
+
+7.Bind *featurenames*, *train* and *test* data into **dataMS**
