@@ -36,3 +36,11 @@ Used Steps are.
 7.Bind *featurenames*, *train* and *test* data into **dataMS**.
 
 8.Set column names in *dataSet* and *dataMS* with **names()** function.
+
+9.Created a *selectedData* from *dataSet* using Means ans STD data.
+
+10.Changed *Activity* names with more understandable text.
+
+11.Written tidy data to **csv** and **txt** format.
+
+12.Calculated and Written mean and standard deviation data of per person per activity in **csv** and **txt** format.
