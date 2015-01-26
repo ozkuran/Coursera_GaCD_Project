@@ -31,6 +31,8 @@ Used Steps are.
 
 5.Extract feature names with **mean** or **std** to *featuresMeanSTD* data frame.
 
-6.Extract features with **mean** or **std** to *featuresMS*.
+6.Extract features with **mean** or **std** to **featuresMS**.
 
-7.Bind *featurenames*, *train* and *test* data into **dataMS**
+7.Bind *featurenames*, *train* and *test* data into **dataMS**.
+
+8.Set column names in *dataSet* and *dataMS* with **names()** function.
