@@ -71,6 +71,7 @@ selectedData$Activity[selectedData$Activity == 6] <-  "LAYING"
 #################################################################### 
 
 write.csv(selectedData, 'selectedData.csv', row.names=FALSE)
+write.table(selectedData, 'selectedData.txt', row.names=FALSE)
 
 ## Average Data
 library(reshape2)
